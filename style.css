@@ -1,0 +1,15 @@
+/*barvy: 
+#FAFAFA pozadí
+#000000 černá
+#8B8B8B šedá
+#407BFF modrá
+
+breakpoints: 
+
+tablet - 640px a víc
+desktop - 1100px a víc
+*/
+
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
