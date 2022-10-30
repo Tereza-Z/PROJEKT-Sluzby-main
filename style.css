@@ -13,3 +13,159 @@ desktop - 1100px a víc
 html { box-sizing: border-box; }
 *, :after, :before { box-sizing: inherit; }
 
+/*MOBIL*/
+
+body {
+    font-family: Montserrat, sans-cerif;
+    color: #8B8B8B;
+    text-align: center;
+    padding: 60px 20px;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+hr {
+    color:#407BFF;
+}
+
+h1, h2 {
+    color: black;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 28px;;
+}
+
+#relax, #adventure {
+    color: white;
+    font-size: 14px;
+    height: 40px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: auto;
+    word-wrap: break-word;
+}
+
+#adventure {
+    background-color:#407BFF;
+    margin-bottom:10px;
+    max-width: 195px;
+}
+
+#relax {
+    background-color: #8B8B8B;
+    max-width: 230px;
+}
+
+.point {
+    display: flex;
+    border: 1px solid #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #e8e8e8;
+    padding: 20px;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding-right: 30px;
+}
+
+.services {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.delegates {
+    margin-top: 60px;
+}
+
+/*TABLET*/
+
+@media screen and (min-width: 640px){
+
+.choice {
+    display: flex;
+    justify-content: center;
+}
+
+.adventure {
+    margin-right: 20px;
+}
+
+.points {
+    display: flex;
+}
+
+.point {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.icon {
+    padding: 0;
+    max-width: 45px;
+    margin-bottom: 20px;
+}
+}
+
+
+/*DESKTOP*/
+
+@media screen and (min-width: 1100px){
+
+body {
+    max-width: 1040px;
+    margin: 60px auto 160px auto;
+    padding: 0;
+    text-align: left;
+}
+
+.intro {
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    max-width: 425px;
+}
+
+.serv {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 0 80px 0;
+}
+
+.dele {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro2 {
+    max-width: 490px;
+}
+
+.services, .delegates {
+    max-width: 430px;
+    margin: 0;
+}
+
+.points {
+    max-width: 550px;
+}
+}
